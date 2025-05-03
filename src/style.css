@@ -1,0 +1,50 @@
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+}
+
+body {
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.inputs {
+    display: flex;
+    gap: 2em;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#moneda, #fecha {
+    border-radius: 1em;
+    color:#157347;
+    border: solid 2px #157347;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 10em;
+    height: 3.5em;
+    text-align: center;
+}
+
+#casa-cambio {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    width: 40em;
+    margin: 0 auto;
+    border-radius: 1em;
+    gap: 2em;
+    box-shadow: 0.3em 0.3em 1em rgba(108, 108, 108, 0.3);
+}
