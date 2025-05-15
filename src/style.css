@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 2em;
     text-transform: uppercase;
@@ -13,6 +17,9 @@ body {
     height: 100vh;
 }
 
+th {
+    text-align: center;
+}
 .inputs {
     display: flex;
     gap: 2em;
@@ -23,7 +30,7 @@ body {
     font-weight: 800;
 }
 
-#moneda, #fecha {
+#monedas, #fecha {
     border-radius: 1em;
     color:#157347;
     border: solid 2px #157347;
@@ -47,4 +54,13 @@ body {
     border-radius: 1em;
     gap: 2em;
     box-shadow: 0.3em 0.3em 1em rgba(108, 108, 108, 0.3);
+    
+}
+
+#resultado-conversion {
+    background-color: white;
+    display: flex;
+    border-radius: 1em;
+    gap: 2em;
+    
 }

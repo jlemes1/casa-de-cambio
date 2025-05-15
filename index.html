@@ -6,7 +6,9 @@
     <title>Casa de Cambio</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" type="icon/png" href="src/img/coin.png"
 </head>
+
 <body>
     <main>
         <div class="container">
@@ -15,7 +17,7 @@
 
                 <div class="inputs">
                     <div class="input-group">
-                        <select id="moneda"></select>
+                        <select id="monedas"></select>
                     </div>
 
                     <div class="input-group">
@@ -23,28 +25,23 @@
                     </div>
                 </div>
 
-                <button class="btn btn-success" type="submit">Convertir</button>
+                <button class="btn btn-success" id="convertir" type="submit">Convertir</button>
             </form>
+        
+            <div class="container" id="resultado-conversion">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Moneda</th>
+                            <th scope="col">Cambio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
-
-
-
-
-
-
-
-
-
-
     </main>
-
-
-
-
-
-
-
-
 
     <script src="src/index.js"></script>
 </body>
